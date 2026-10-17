@@ -1,12 +1,12 @@
-# Privacy Policy for the iminit Mobile Application
+# Privacy Policy for the IMINIT Mobile Application
 
-Last updated: October 14, 2026.
+Last updated: October 17, 2026.
 
 ## 1. General information
 
-This Privacy Policy explains what data is processed when you use the iminit mobile application, why it is processed, and which services are involved.
+This Privacy Policy explains what data is processed when you use the IMINIT mobile application, why it is processed, and which services are involved.
 
-iminit is an IT interview preparation trainer for QA, Frontend, Backend, Data, and DevOps roles. Users answer interview questions, and an AI-based system evaluates answers for accuracy, completeness, and clarity and provides feedback. The app also includes timed mock interviews.
+IMINIT is an IT interview preparation trainer for QA, Frontend, Backend, Data, and DevOps roles. Users answer interview questions, and an AI-based system evaluates answers for accuracy, completeness, and clarity and provides feedback. The app also includes timed mock interviews.
 
 The personal data operator is Matvey Igorevich Kolmakov, an individual applying the Russian special tax regime for self-employed persons (Professional Income Tax).
 
@@ -18,11 +18,11 @@ Privacy contact: iminitapp@mail.ru.
 
 ### 2.1. User text answers
 
-When a user submits an answer for AI evaluation, the answer text is sent to the iminit backend hosted on the Operator's server and then, through the intermediary service RouterAI, forwarded to the AI model provider to generate scores and feedback.
+When a user submits an answer for AI evaluation, the answer text is sent to the IMINIT backend hosted on the Operator's server and then, through the intermediary service RouterAI, forwarded to the AI model provider to generate scores and feedback.
 
 Before the request is sent to the AI service, the backend automatically anonymizes the answer text: email addresses, phone numbers, URLs, IP addresses, bank card numbers, Russian SNILS and INN identifiers, passport data, and messenger handles are removed. These values are replaced with neutral placeholders and never leave the Operator's backend. As a result, no personal data is transferred outside the Russian Federation.
 
-The iminit backend does not store user answer text in its application database after the request is completed.
+The IMINIT backend does not store user answer text in its application database after the request is completed.
 
 An answer may contain information voluntarily entered by the user. Users should not include names, contact details, identity documents, passwords, payment details, health information, or other information that is not necessary for interview preparation. Even with automatic anonymization in place, the Operator recommends not entering such information.
 
@@ -42,13 +42,21 @@ When certain feedback features are used, technical information such as the Andro
 
 This information is not used to display advertising.
 
-### 2.3. Voice input
+### 2.3. Analytics data
+
+To improve the quality of the Application, we use the Yandex.AppMetrica service (Yandex LLC). The service collects depersonalized data about the use of the Application: device identifier, device model and OS version, App version, events within the App (opening screens, button clicks, completing onboarding), and technical error data.
+
+This data is used solely for analytical purposes — to understand which features of the Application are in demand and which require improvement. We do not transfer this data to third parties or use it for advertising or profiling.
+
+For more details on data processing in Yandex.AppMetrica, please refer to the Privacy Policy of Yandex LLC: https://yandex.ru/legal/confidential/
+
+### 2.4. Voice input
 
 Voice input is optional. Microphone access is requested only after the user actively starts dictation.
 
-iminit uses the Android system speech-recognition service through expo-speech-recognition. Depending on the device and its settings, recognition may be performed locally on the device or through the system speech-recognition provider, which may be Google.
+IMINIT uses the Android system speech-recognition service through expo-speech-recognition. Depending on the device and its settings, recognition may be performed locally on the device or through the system speech-recognition provider, which may be Google.
 
-The iminit developer does not store the audio recording and does not receive the audio file on the iminit backend. Audio is not sent to the AI service.
+The IMINIT developer does not store the audio recording and does not receive the audio file on the IMINIT backend. Audio is not sent to the AI service.
 
 After recognition, the application receives text. If the user submits that text for AI evaluation, it is processed as a regular text answer as described in Section 2.1.
 
@@ -58,7 +66,7 @@ Users may deny microphone access and type answers manually.
 
 User progress, completed questions, scores, local usage limits, and mock interview history are stored locally on the user's device in the application's storage.
 
-This data is not synchronized with an account because iminit does not use registration or authentication, and the full progress history is not transmitted to the server.
+This data is not synchronized with an account because IMINIT does not use registration or authentication, and the full progress history is not transmitted to the server.
 
 Mock interview history may include answers entered by the user. Such data remains on the device except for individual answers that the user submits for AI evaluation.
 
@@ -101,11 +109,11 @@ The exact information depends on the form fields and what the user chooses to su
 
 ## 5. Data the app does not automatically collect
 
-iminit does not require registration or authentication.
+IMINIT does not require registration or authentication.
 
 The app does not automatically collect the user's name, email address, or phone number.
 
-The app does not contain advertising SDKs or analytics SDKs such as Firebase Analytics or AppMetrica.
+The app does not contain advertising SDKs. For statistical analysis, an analytics SDK, Yandex.AppMetrica, is used. It does not collect personal data (name, email, phone) and is not used for advertising.
 
 As of the date of this Policy, the app does not include payments or an active paid subscription.
 
@@ -121,28 +129,32 @@ Data is processed to:
 - review voluntarily submitted reports about incorrect AI evaluations, including the user's answer and the AI evaluation result;
 - record voluntarily expressed interest in a future Pro subscription;
 - process voluntarily submitted bug reports;
+- analyze app usage and improve its performance (via Yandex.AppMetrica);
 - maintain service security and stability.
 
 ## 7. Third-party services
 
-The following services are used for certain iminit features:
+The following services are used for certain IMINIT features:
 
 - the iminit.ru server — backend hosting and processing of app requests;
 - RouterAI — a Russian intermediary service through which requests are forwarded to the AI model provider; RouterAI is not a personal data operator with respect to the content of the requests;
 - the AI model provider DeepSeek — generating evaluations and feedback; receives only anonymized text;
+- Yandex.AppMetrica — collection of depersonalized usage statistics (events, technical device data) to improve performance;
 - Google Apps Script and Google Sheets — processing voluntary AI-evaluation reports and limited service feedback events;
 - Google Forms — voluntary bug reports;
 - Android system speech-recognition service — voice input processing; depending on the device, the provider may be Google.
 
-The AI-provider API key is stored only on the iminit backend and is not included in the mobile application.
+The AI-provider API key is stored only on the IMINIT backend and is not included in the mobile application.
 
-iminit does not sell user data to advertising networks.
+IMINIT does not sell user data to advertising networks.
 
 ## 8. Data retention
 
-Text answers submitted for AI evaluation are not stored in the iminit backend application database after completion of the AI request. The anonymized text is temporarily forwarded to the intermediary service and the AI model provider to the extent necessary to generate a response.
+Text answers submitted for AI evaluation are not stored in the IMINIT backend application database after completion of the AI request. The anonymized text is temporarily forwarded to the intermediary service and the AI model provider to the extent necessary to generate a response.
 
-Technical data, including the device identifier, is processed to the extent necessary to protect the service and enforce request limits. To track limits, the backend stores an anonymized record of the form "Android ID → count of used checks", with no link to answer texts, names, or contacts. Such records are automatically reset every 7 days.
+Technical data, including the device identifier, is processed to the extent necessary to protect the service and enforce request limits. To track limits, the backend stores an anonymized record of the form "Android ID → count of used checks", with no link to answer texts, names, or contacts. Such records are automatically reset every 24 hours (for AI checks) and every 3 days (for mock interviews).
+
+Depersonalized statistical data collected via Yandex.AppMetrica is stored in accordance with the terms of the Yandex LLC service and is used exclusively for internal analytics.
 
 Service events, AI-evaluation reports, and other reports submitted through Google Apps Script, Google Sheets, or Google Forms may remain in those services until deleted by the developer, unless longer retention is required to review quality, process the report, or comply with applicable law.
 
@@ -150,13 +162,13 @@ Local progress and mock interview history remain on the user's device until dele
 
 ## 9. Data deletion
 
-Because iminit does not use user accounts, the developer does not maintain a unified server-side progress history for each user.
+Because IMINIT does not use user accounts, the developer does not maintain a unified server-side progress history for each user.
 
 Local data can be deleted through the application where a relevant deletion function is available, by clearing the application's data in Android settings, or by uninstalling the application.
 
-Text answers submitted for AI evaluation are not stored in the iminit backend database after processing is completed.
+Text answers submitted for AI evaluation are not stored in the IMINIT backend database after processing is completed.
 
-The limit-tracking record associated with a device identifier is automatically reset every 7 days. On request to iminitapp@mail.ru, such a record can be deleted early if the user can confirm ownership of the device identifier.
+The limit-tracking record associated with a device identifier is automatically reset (every 24 hours for AI and every 3 days for mock interviews). On request to iminitapp@mail.ru, such a record can be deleted early if the user can confirm ownership of the device identifier.
 
 If the user submitted a report through Google Forms or used features that created records in Google Sheets, the user may request deletion of the relevant data by contacting iminitapp@mail.ru. Information sufficient to identify the specific report or event may be required.
 
@@ -172,7 +184,7 @@ Withdrawal of consent does not affect data that remains only on the user's devic
 
 ## 11. Security
 
-Data transfers between the application and the iminit backend, and between the backend and the intermediary service and AI model provider, use HTTPS.
+Data transfers between the application and the IMINIT backend, and between the backend and the intermediary service and AI model provider, use HTTPS.
 
 The AI-provider API key is kept on the server and is not stored in the mobile application.
 
@@ -184,7 +196,7 @@ The developer applies reasonable technical measures to restrict backend access a
 
 A Pro subscription and additional paid features may be introduced in the future.
 
-When payments are introduced, payment data will be processed through the RuStore Pay SDK — the RuStore store's payment service — in accordance with its own privacy policy. The iminit developer will not receive or store full bank card details.
+When payments are introduced, payment data will be processed through the RuStore Pay SDK — the RuStore store's payment service — in accordance with its own privacy policy. The IMINIT developer will not receive or store full bank card details.
 
 Before payment data or other new categories of data are processed, this Policy and the RuStore data-safety disclosures will be updated.
 
